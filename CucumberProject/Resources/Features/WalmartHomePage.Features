@@ -1,0 +1,8 @@
+Feature: WalmartHomePage
+This feature verifies the functionality on WalmartHomePage
+Scenario: Check that main elements on Google HomePage are displayed
+Given I launch Chrome browser
+When I open WalmartHomePage
+Then I verify that the page displays search text box
+And the page displays Google Search button
+And the page displays I'm Feeling Lucky button
